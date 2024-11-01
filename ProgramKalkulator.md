@@ -122,3 +122,16 @@ kalkulator()
 ![output](Output_Kalkulator.png)
 
 berikut adalah contoh output program apabila berhasil 
+
+## Cara Kerja Program
+
+- Definisi Fungsi: Program punya fungsi untuk penjumlahan, pengurangan, perkalian, dan pembagian.
+- Tampilkan Menu: Fungsi kalkulator() menampilkan pilihan operasi yang bisa dipilih.
+- Input Pilihan: Pengguna diminta untuk memilih jenis operasi dengan memasukkan nomor.
+- Cek Pilihan: Program mengecek apakah pilihan valid (1-5) dan tidak kosong.
+- Input Angka: Jika pilihan oke, pengguna diminta untuk memasukkan dua angka.
+- Lakukan Operasi: Program menghitung hasil sesuai pilihan yang dipilih.
+- Tampilkan Hasil: Hasil perhitungan ditampilkan ke pengguna.
+- Tangani Kesalahan: Jika ada kesalahan, seperti membagi dengan nol, program kasih tahu pengguna.
+- Ulang atau Keluar: Pengguna bisa memilih operasi lain atau keluar dari program.
+
