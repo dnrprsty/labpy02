@@ -1,6 +1,29 @@
 # Program Kalkulator Sederhana
-Program ini bertujuan Untuk menampilkan dan menghitung operasi aritmatika sederhana
+Program ini adalah kalkulator sederhana yang bisa melakukan operasi dasar seperti penjumlahan, pengurangan, perkalian, dan pembagian.
+    
+## Rincian Program :
+#### 1. Fungsi Aritmatika
+- Penjumlahan: Menambahkan dua angka.
+- Pengurangan: Mengurangi angka kedua dari angka pertama.
+- Perkalian: Mengalikan dua angka.
+- Pembagian: Membagi angka pertama dengan angka kedua, dengan pengecekan agar tidak membagi dengan nol.
 
+#### 2. Fungsi Utama kalkulator():
+- Menampilkan menu pilihan operasi.
+- Mengambil pilihan dari pengguna dan memvalidasi input.
+- Meminta pengguna memasukkan dua angka dan memastikan input valid.
+- Melakukan operasi sesuai pilihan dan menampilkan hasilnya.
+
+#### 3. Menjalankan Program:
+Program dimulai dengan memanggil fungsi kalkulator(), yang menjalankan semua langkah di atas.
+
+#### *Fitur Tambahan
+Program ini dapat menangani kesalahan input, seperti angka yang tidak valid atau pembagian dengan nol, sehingga memberikan informasi yang tepat kepada pengguna.
+
+## Flowchart
+```mermaid
+
+```
 ## Kode Program 
 
 ```python
