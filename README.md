@@ -20,6 +20,7 @@ Program dimulai dengan memanggil fungsi kalkulator(), yang menjalankan semua lan
 
 #### *Fitur Tambahan
 Program ini dapat menangani kesalahan input, seperti angka yang tidak valid atau pembagian dengan nol, sehingga memberikan informasi yang tepat kepada pengguna.
+
 ---
 # Flowchart
 ````mermaid
@@ -120,21 +121,32 @@ kalkulator()
 
 ## Hasil Output Program
 
-![output](Output_Kalkulator.png)
+![output](output/OutputKalkulatorBerhasil.png)
 
-berikut adalah contoh output program apabila berhasil 
+ *berikut adalah contoh output program apabila berhasil 
+
+![output](output/OutputKalkulatorGagal.png)
+
+ *contoh output jika angka/operasi yang dipilih tidak valid (Gagal)
+
+---
 
 ## Cara Kerja Program
 
-- Definisi Fungsi: Program punya fungsi untuk penjumlahan, pengurangan, perkalian, dan pembagian.
-- Tampilkan Menu: Fungsi kalkulator() menampilkan pilihan operasi yang bisa dipilih.
-- Input Pilihan: Pengguna diminta untuk memilih jenis operasi dengan memasukkan nomor.
-- Cek Pilihan: Program mengecek apakah pilihan valid (1-5) dan tidak kosong.
-- Input Angka: Jika pilihan oke, pengguna diminta untuk memasukkan dua angka.
-- Lakukan Operasi: Program menghitung hasil sesuai pilihan yang dipilih.
-- Tampilkan Hasil: Hasil perhitungan ditampilkan ke pengguna.
-- Tangani Kesalahan: Jika ada kesalahan, seperti membagi dengan nol, program kasih tahu pengguna.
-- Ulang atau Keluar: Pengguna bisa memilih operasi lain atau keluar dari program.
+1. Input Pilihan:
+    - Pengguna diminta untuk memilih jenis operasi dengan memasukkan nomor.
+2. Cek Pilihan:
+    - Program mengecek apakah pilihan valid (1-5) dan tidak kosong.
+3. Input Angka:
+    - Jika pilihan oke, pengguna diminta untuk memasukkan dua angka.
+4. Lakukan Operasi:
+    - Program menghitung hasil sesuai pilihan yang dipilih.
+5. Tampilkan Hasil:
+    - Hasil perhitungan ditampilkan ke pengguna.
+6. Tangani Kesalahan:
+    - Jika ada kesalahan, seperti membagi dengan nol, program kasih tahu pengguna.
+7. Ulang atau Keluar:
+    - Pengguna bisa memilih operasi lain atau keluar dari program.
 
 ---
 
@@ -144,9 +156,9 @@ Program sederhana untuk menghitung harga tiket Bioskop dan menerapkan diskon ber
 ## Deskripsi Program
 Program ini memungkinkan pengguna untuk:
 
-Memilih jenis tiket (VIP/Reguler)
-Menentukan status member
-Mendapatkan perhitungan harga tiket final dengan diskon (jika memiliki kartu member)
+- Memilih jenis tiket (VIP/Reguler)
+- Menentukan status member
+- Mendapatkan perhitungan harga tiket final dengan diskon (jika memiliki kartu member)
 
 ## Flowchart Ticket
 ````mermaid
@@ -176,8 +188,15 @@ flowchart TD
 
 ## Contoh Output Program
 
-![Output](output/outputticket.png)
+![Output](output/OutputTicketReguler.png)
+ 
+ *contoh Output Program apabila tipe tiket Reguler dan tanpa Diskon
 
+![output](output/OutputTicketVip.png)
+ 
+ *contoh Output Program apabila tipe tiket VIP dan dapat Diskon
+
+---
 
 ## Cara Kerja Program:
 
